@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="testng.xsd" parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="helloWorld.myTest1"/>
+    </classes>
+  </test> 
+</suite>
