@@ -18,10 +18,16 @@ public class myTest1 {
 		System.out.println("Hello Test 1");
 	}
 	
+	@Test
+	public void test2()
+	{
+		System.out.println("Hello Test 2");
+	}
+	
 	@AfterTest
 	public void test3()
 	{
-		System.out.println("Hello Test 2");
+		System.out.println("Hello Test 3");
 	}
 	
 }
